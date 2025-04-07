@@ -13,5 +13,5 @@ __Activate the envirionment__:
 activate the newly created conda environment:
 
 ```bash
-conda activate newyork-taxi-fare-prediction-2
+conda activate newyork-taxi-fare-prediction
 ```
