@@ -2,11 +2,22 @@ name: newyork-taxi-fare-prediction
 
 channels:
   - conda-forge
+  - defaults
 
 dependencies:
   - python=3.10.6
+  - numpy
   - pandas
-  - pydantic
+  - matplotlib
+  - seaborn
+  - transformers
   - python-dotenv
   - autopep8
   - pylint
+  - ipykernel
+  - pip
+  - pip:
+      - timm
+      - torch 
+      - torchvision 
+      - torchaudio
