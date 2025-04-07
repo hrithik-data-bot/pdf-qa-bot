@@ -5,7 +5,7 @@ __Create an environment__:
 create a new conda environment named `newyork-taxi-fare-prediction` by running the following commands:
 
 ```bash
-cd newyork-taxi-fare-prediction-2
+cd newyork-taxi-fare-prediction
 conda env create --file environment.yml
 ```
 
