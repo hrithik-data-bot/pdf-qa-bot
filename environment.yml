@@ -1,0 +1,12 @@
+name: newyork-taxi-fare-prediction
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10.6
+  - pandas
+  - pydantic
+  - python-dotenv
+  - autopep8
+  - pylint
