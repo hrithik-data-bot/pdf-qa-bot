@@ -12,9 +12,10 @@ class HaversineDistance:
     coordinates_1: Tuple
     coordinates_2: Tuple
     
-    def calculate_haversine(self, radius_of_sphere: float = 6371.0) -> float:
+    def calculate_haversine(self, kilometres: float = True) -> float:
         """method calculates haversine distance"""
 
+        radius_of_sphere = 6371.0 if kilometres==True else 3956.0
         lat_1, long_1 = self.coordinates_1
         lat_2, long_2 = self.coordinates_2
         d_lat = np.radians(lat_2) - np.radians(lat_1)
@@ -23,4 +24,3 @@ class HaversineDistance:
         c = 2*np.arcsin(np.sqrt(a))
         haversine_distance = c*radius_of_sphere
         return haversine_distance
-    
