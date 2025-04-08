@@ -20,7 +20,7 @@ class HaversineDistance:
         d_lat = np.radians(lat_2) - np.radians(lat_1)
         d_long = np.radians(long_2) - np.radians(long_1)
         a = np.sin(d_lat/2)**2 + np.cos(np.radians(lat_1)) * np.cos(np.radians(lat_2)) * np.sin(d_long/2)**2
-        
-        
-
-        
+        c = 2*np.arcsin(np.sqrt(a))
+        haversine_distance = c*radius_of_sphere
+        return haversine_distance
+    
