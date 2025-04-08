@@ -15,6 +15,8 @@ dependencies:
   - autopep8
   - pylint
   - ipykernel
+  - streamlit
+  - fastapi
   - pip
   - pip:
       - timm
