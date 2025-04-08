@@ -13,7 +13,9 @@ class HaversineDistance:
     coordinates_2: Tuple
     
     def calculate_haversine(self, kilometres: float = True) -> float:
-        """method calculates haversine distance"""
+        """method calculates haversine distance
+           set parameter kilometre = False to get distane in miles.
+        """
 
         radius_of_sphere = 6371.0 if kilometres==True else 3956.0
         lat_1, long_1 = self.coordinates_1
