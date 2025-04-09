@@ -21,4 +21,8 @@ def init_logging() -> logging.Logger:
     file_log_formatter = logging.Formatter(fmt=file_format)
     stream_log_formatter = logging.Formatter(fmt=stream_format)
     logger = logging.getLogger(name=_get_filename().replace('.py',''))
+    file_handler = logging.FileHandler(filename=_get_filename().replace('.py', '.log'))
+    stream_handler = logging.StreamHandler()
+    
+    
     
