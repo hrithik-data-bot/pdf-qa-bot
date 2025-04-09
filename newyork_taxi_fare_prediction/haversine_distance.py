@@ -14,10 +14,10 @@ class HaversineDistance:
     
     def calculate_haversine(self, kilometers: float = True) -> float:
         """method calculates haversine distance
-           set parameter kilometers = False to get distane in miles.
+           set parameter kilometers = False to get distance in miles.
         """
 
-        radius_of_sphere = 6371.0 if kilometres==True else 3956.0
+        radius_of_sphere = 6371.0 if kilometers==True else 3956.0
         lat_1, long_1 = self.coordinates_1
         lat_2, long_2 = self.coordinates_2
         d_lat = np.radians(lat_2) - np.radians(lat_1)
