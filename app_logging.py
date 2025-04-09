@@ -23,6 +23,9 @@ def init_logging() -> logging.Logger:
     logger = logging.getLogger(name=_get_filename().replace('.py',''))
     file_handler = logging.FileHandler(filename=_get_filename().replace('.py', '.log'))
     stream_handler = logging.StreamHandler()
-    
+
+    logger.addHandler(hdlr=file_handler)
+    logger.addHandler(hdlr=stream_handler)
+
     
     
