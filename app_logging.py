@@ -27,5 +27,8 @@ def init_logging() -> logging.Logger:
     logger.addHandler(hdlr=file_handler)
     logger.addHandler(hdlr=stream_handler)
 
+    file_handler.setFormatter(fmt=file_log_formatter)
+    stream_handler.setFormatter(fmt=stream_log_formatter)
+    
     
     
