@@ -1,0 +1,2 @@
+"""module for app logging"""
+
