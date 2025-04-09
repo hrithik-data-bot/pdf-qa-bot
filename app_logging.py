@@ -15,3 +15,8 @@ def _get_filename() -> str:
     return filename
 
 
+def init_logging() -> logging.Logger:
+    """logging function"""
+
+    file_log_formatter = logging.Formatter(fmt=file_format)
+    stream_log_formatter = logging.Formatter(fmt=stream_format)
