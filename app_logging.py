@@ -34,4 +34,3 @@ def init_logging() -> logging.Logger:
     stream_handler.setLevel(level=logging.INFO)
     logger.setLevel(logging.INFO)
     return logger
-    
