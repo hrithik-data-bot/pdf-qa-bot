@@ -17,6 +17,7 @@ dependencies:
   - ipykernel
   - streamlit
   - fastapi
+  - uvicorn
   - pip
   - pip:
       - timm
