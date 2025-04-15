@@ -10,12 +10,12 @@ app = FastAPI()
 # Get model for model calls
 
 @app.get("/")
-def get_predictions(model_feature_values: torch.Tensor) -> Dict:
+def get_predictions(model_feature_values: int) -> Dict:
     """endpoint for model price prediction"""
 
     # Get predictions from model
     # Return predictions as a JSON object
     model_feature_values = None
     if model_feature_values is None:
-        return {'message': torch.Tensor([500])}
-    return {'message': torch.Tensor([500])}
+        return {'message': 500}
+    return {'message':500}
