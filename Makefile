@@ -6,6 +6,7 @@ init:
 	mkdir -p build
 
 clean:
+	rm *.Identifier
 	rm -rf .pytest_cache
 	rm -rf .mypy_cache
 	rm -rf .coverage
