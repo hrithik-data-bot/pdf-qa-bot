@@ -15,3 +15,5 @@ activate the newly created conda environment:
 ```bash
 conda activate newyork-taxi-fare-prediction
 ```
+
+__Use this repository as a package__:
