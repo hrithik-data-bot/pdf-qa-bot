@@ -26,3 +26,5 @@ python setup.py develop
 ```
 
 __Using theis repo as a package in python IDE__:
+To use the package in other projects in python IDE:
+
