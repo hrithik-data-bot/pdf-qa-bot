@@ -24,3 +24,5 @@ conda activate your-env-name
 cd path-to-repo/newyork-taxi-fare-prediction
 python setup.py develop
 ```
+
+__Using theis repo as a package in python IDE__:
