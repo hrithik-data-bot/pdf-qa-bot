@@ -28,3 +28,7 @@ python setup.py develop
 __Using theis repo as a package in python IDE__:
 To use the package in other projects in python IDE:
 
+```python
+import newyork_taxi_fare_prediction
+from newyork_taxi_fare_prediction import haversine_distance
+```
