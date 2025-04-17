@@ -17,3 +17,4 @@ conda activate newyork-taxi-fare-prediction
 ```
 
 __Use this repository as a package__:
+To use this repository as a package in other environments named `newyork_taxi_fare_prediction` by running the following commands:
