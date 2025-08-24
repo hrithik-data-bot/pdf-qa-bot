@@ -1,0 +1,12 @@
+name: pdf-query-bot
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - pip:
+      - langchain
+      - openai
+      - PyPDF2
+      - faiss-cpu
+      - tiktoken
