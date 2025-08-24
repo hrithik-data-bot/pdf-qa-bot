@@ -1,2 +1,2 @@
 # pdf-qa-bot
-Ask questions with your pdf
+Query your input PDF and get answers of your queries from PDF.
