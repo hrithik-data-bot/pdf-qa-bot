@@ -4,6 +4,8 @@ channels:
   - defaults
 
 dependencies:
+  - ipykernel
+
   - pip:
       - langchain
       - openai
