@@ -5,16 +5,16 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 
 
-def text_splitter(raw_text: str):
+def text_splitter(raw_text: str) -> list:
     """text splitter"""
 
     text_splitter = CharacterTextSplitter(separator="\n", chunk_size=800,
-                                          chunk_overalp=200, length_function=len)
+                                          chunk_overlap=200, length_function=len)
     texts = text_splitter.split_text(raw_text)
     return texts
 
 
-def create_embeddings(texts):
+def create_embeddings(texts) -> FAISS:
     """open ai embeddings"""
 
     embeddings = OpenAIEmbeddings()
