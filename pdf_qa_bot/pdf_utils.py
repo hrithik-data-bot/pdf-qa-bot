@@ -7,7 +7,7 @@ class PDFUtils:
 
     def __init__(self, pdf_path: str) -> None:
         """init method for PDF Utils"""
-    
+
         self.pdf_path = pdf_path
 
 
@@ -16,4 +16,3 @@ class PDFUtils:
 
         reader = PdfReader(self.pdf_path)
         return reader
-    
