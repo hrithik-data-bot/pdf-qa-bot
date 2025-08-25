@@ -13,5 +13,7 @@ class PDFUtils:
 
     def read_pdf(self) -> 
         """read PDF"""
-        pass
+
+        reader = PdfReader(self.pdf_path)
+        return reader
     
