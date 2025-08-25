@@ -11,7 +11,7 @@ class PDFUtils:
         self.pdf_path = pdf_path
 
 
-    def read_pdf(self) -> 
+    def read_pdf(self) -> PdfReader:
         """read PDF"""
 
         reader = PdfReader(self.pdf_path)
