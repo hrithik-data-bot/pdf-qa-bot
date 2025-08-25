@@ -1,6 +1,6 @@
 """utilities for reading and writing PDFs"""
 
-from PyPDF2 import Pdfreader
+from PyPDF2 import PdfReader
 
 class PDFUtils:
     """class for PDF Utils"""
