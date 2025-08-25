@@ -14,3 +14,9 @@ def text_splitter(raw_text: str):
     return texts
 
 
+def create_embeddings(texts):
+    """open ai embeddings"""
+
+    embeddings = OpenAIEmbeddings()
+    document_search = FAISS.from_texts(texts, embeddings)
+    return document_search
