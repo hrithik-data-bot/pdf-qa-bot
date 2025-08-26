@@ -10,6 +10,7 @@ dependencies:
       - langchain
       - openai
       - PyPDF2
+      - python-dotenv
       - faiss-cpu
       - langchain-community
       - tiktoken
