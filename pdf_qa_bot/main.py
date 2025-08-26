@@ -2,7 +2,7 @@
 
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
-from embeddings import create_embeddings
+from pdf_qa_bot.embeddings import create_embeddings
 
 
 class Ask:
