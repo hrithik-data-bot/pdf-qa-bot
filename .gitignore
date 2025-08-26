@@ -1,36 +1,7 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# VS Code
 .vscode
-.env.*
-junit.xml
-
-# Code Profiling
-*.prof
-
-# Environment Variables
 *.env
 
-# Logging
 *.log
 
-# Distribution / packaging
 .Python
 env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
